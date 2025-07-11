@@ -996,7 +996,7 @@ export default function LeprechaunRunner() {
         <div className="absolute inset-0 flex items-end justify-center pb-20 pointer-events-none">
           <div className="pointer-events-auto">
             <button
-              onClick={() => window.open("https://blastbet.com", "_blank")}
+              onClick={() => window.open("https://blastbet.com/?utm_source=telegram&utm_medium=cpc&utm_campaign=leprechaun_runner&utm_content=start_game_button", "_blank")}
               className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-200 border-2 border-yellow-400 hover:border-yellow-300"
               style={{
                 fontSize: `${Math.max(18, Math.min(28, window.innerWidth / 18))}px`,
